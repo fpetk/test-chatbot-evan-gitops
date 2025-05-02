@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: test-chatbot-evan
     spec:
       containers:
-        - image: quay.io/redhat-ai-dev/ai-template-bootstrap-app:latest
+        - image: quay.io/tpetkos/test-chatbot-evan:ae3cbe3dd59f894ec7f140a569b3ec729edeaae5@sha256:95ca74c38f86071b45750e70f014634fbeca43308c0e108bbab5b2febd8e1b14
           name: app-inference
           envFrom:
             - configMapRef:
